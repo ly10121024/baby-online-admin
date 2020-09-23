@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index"
+  },
+  "navigationBarBackgroundColor": "#225cff",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "宝贝在线",
+  "backgroundColorTop": "#225cff",
+  "backgroundColorBottom": "#225cff"
+}

@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/maintain/maintain",
+    "pages/rules/rules"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tabbar/home_icon.png",
+        "selectedIconPath": "static/images/tabbar/home_icon_active.png",
+        "text": "设备管理"
+      },
+      {
+        "pagePath": "pages/rules/rules",
+        "iconPath": "static/images/tabbar/config_icon.png",
+        "selectedIconPath": "static/images/tabbar/config_icon_active.png",
+        "text": "规则配置"
+      },
+      {
+        "pagePath": "pages/maintain/maintain",
+        "iconPath": "static/images/tabbar/setting_icon.png",
+        "selectedIconPath": "static/images/tabbar/setting_icon_active.png",
+        "text": "设备维护"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

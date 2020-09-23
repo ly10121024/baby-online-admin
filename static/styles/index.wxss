@@ -1,0 +1,6 @@
+@import './flex.wxss';
+@import './vant.wxss';
+
+.text--white {
+  color: #fff;
+}

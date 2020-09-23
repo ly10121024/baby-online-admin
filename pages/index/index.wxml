@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="header__container">
+  <image src="../../static/images/home/home_bg.png" class="header__bg"></image>
+  <view class="header__content">
+    <text class="text--white header__title">海韵\n宝贝在线</text>
+    <text class="text--white header__dsc">智能校园在线监控设备</text>
+  </view>
+</view>

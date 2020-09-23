@@ -1,0 +1,27 @@
+/**index.wxss**/
+.header__container {
+  position: relative;
+  width: 750rpx;
+  height: 574rpx;
+}
+
+.header__bg {
+  width: 750rpx;
+  height: 574rpx;
+  position: absolute;
+  top: -100rpx;
+  right: 0;
+  z-index: -1;
+}
+
+.header__content {
+  padding-left: 30rpx;
+}
+
+.header__title {
+  font: bold 48rpx/64.5rpx PingFang SC;
+}
+
+.header__dsc {
+  font: 500 32rpx/31rpx PingFang SC;
+}
