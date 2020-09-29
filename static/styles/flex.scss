@@ -1,0 +1,80 @@
+@mixin flex {
+  display: flex;
+}
+
+@mixin flex-between {
+  @include flex;
+  justify-content: space-between;
+}
+
+@mixin flex-around {
+  @include flex;
+  justify-content: space-around;
+}
+
+@mixin flex-center {
+  @include flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin column {
+  @include flex;
+  flex-direction: column;
+}
+
+@mixin column-between {
+  @include column;
+  justify-content: space-between;
+}
+
+@mixin column-around {
+  @include column;
+  justify-content: space-around;
+}
+
+@mixin column-center {
+  @include column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin column-scroll {
+  flex: 1;
+  overflow: auto;
+}
+
+.layout-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout-row__between {
+  @include flex-between;
+}
+.layout-row__between_center {
+  @include flex-between;
+}
+
+.layout-row__around {
+  @include flex-around;
+}
+
+.layout-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-column__between {
+  @include column-between;
+}
+
+.layout-column__around {
+  @include column-around;
+}
+
+.layout-column__scroll {
+  flex-direction: column;
+  @include flex;
+  @include column-scroll;
+}

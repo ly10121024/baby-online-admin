@@ -1,0 +1,5 @@
+<view class="video-detail">
+	<live-player class="detail--top" autoplay src="https://domain/pull_stream">
+	</live-player>
+	<view class="detail--content padding-30"></view>
+</view>

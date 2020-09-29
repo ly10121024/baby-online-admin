@@ -1,0 +1,19 @@
+<view class="home">
+	<view class="home--top layout-row__around">
+		<text class="home__item--top {{currentType==index?'active':''}}" wx:for="{{type}}" wx:key="index"
+      bindtap="changeType" data-type="{{index}}">{{item}}</text>
+	</view>
+	<view class="home--content layout-column padding-30">
+		<scroll-view class="home__class">
+			<text class="home__class-item {{currentClass==item.id?'active text--white':''}}" wx:for="{{classes}}" wx:key="id"
+        bindtap="changeClass" data-class="{{item.id}}">{{item.text}}</text>
+		</scroll-view>
+		<view class="home__camera">
+			<navigator class="home__camera-item" wx:for="{{cameras}}" wx:key="id" url="/pages/teacher/videoDetail/videoDetail">
+				<text class="desc text--white">{{item.desc}}</text>
+				<image class="poster" src="{{item.poster}}"></image>
+			</navigator>
+		</view>
+	</view>
+
+</view>
